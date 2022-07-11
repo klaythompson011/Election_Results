@@ -4,7 +4,8 @@
 Purpose
 
 ###
-The purpose of this challenge is to assist with the election audit of the Colorado US Congressional precinct and provide additional data as requested by the election commission.
+The purpose of this challenge is to assist with the election audit of the Colorado US Congressional precinct and provide additional data as requested by
+the election commission.
 
 ##
 Results
@@ -19,8 +20,6 @@ The election results were provided in a CSV file. Python code was used to assist
     received 24,801 votes or 6.7% of total votes. To determine the number of votes for each county in the precinct, an “if” statement was used with the
     membership operator “not in.”  
 
-![County_Votes](Resources/County_Votes.png)
-
    • Denver county had the largest turnout with 306,055 votes. To determine the county with the largest turnout, a for loop and “if” statement were used. 
 
 ![Winning_County](Resources/Winning_County.png)
@@ -32,4 +31,6 @@ The election results were provided in a CSV file. Python code was used to assist
 
 Summary
 
-In some elections, the winning candidate is named after having received a majority vote that exceeds a specified threshold, such as 50%. The code can be modified in section 8, such that the “if” statement includes a comparison that the vote_percentage is greater than the specified threshold. 
+In some elections, the winning candidate is named after having received a majority vote that exceeds a specified threshold, such as 50%. When determining 
+the winning candidate, the code can be modified such that the "if" statement used includes a comparison that the vote_percentage is greater than the
+specified threshold. 
